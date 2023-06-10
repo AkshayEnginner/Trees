@@ -131,6 +131,7 @@ class deletebst
          }*/
          
          delete( root,4);
+        inorder(root);
     }
 }    
     
