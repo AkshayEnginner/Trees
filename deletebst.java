@@ -65,11 +65,11 @@ class deletebst
     
     static Node delete(Node root,int val)
     {
-        if(root.data < val)
+        if(root.data > val)
         {
             root.left = delete(root.left,val);
         }
-        else if(root.data > val)
+        else if(root.data < val)
         {
             root.right = delete(root.right,val);
         }
